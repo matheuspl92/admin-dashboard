@@ -39,9 +39,21 @@ body {
 }
 
 .header {
-    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .item {
+    display: flex;
+    align-items: center;
+}
 .main-content {
     grid-column-start: 2;
 }
