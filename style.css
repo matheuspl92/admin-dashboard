@@ -8,3 +8,40 @@
     --color-header-font: #000;
     --color-content-font: rgb(90, 90, 90);
 }
+
+img{
+    height: 50px;
+    width: 50px;
+    background: red;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+    color: var(--color-sidebar-font);
+    background: var(--color-sidebar-bg);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid; 
+    grid-template-rows: 1fr repeat(3, 4fr);
+}
+
+.logo {
+    display: flex;
+}
+
+.sidebar .item {
+    display: flex;
+}
+
+.header {
+    
+}
+
+.main-content {
+    grid-column-start: 2;
+}
