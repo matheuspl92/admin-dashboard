@@ -1,0 +1,10 @@
+/*COLOR PALETTE*/
+
+:root {
+    --color-sidebar-bg: rgb(0, 110, 255);
+    --color-header-bg: #fff;
+    --color-content-bg: rgb(177, 177, 177);
+    --color-sidebar-font: #fff;
+    --color-header-font: #000;
+    --color-content-font: rgb(90, 90, 90);
+}
