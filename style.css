@@ -39,6 +39,8 @@ body {
 }
 
 .header {
+    color: var(--color-header-font);
+    background: var(--color-header-bg);
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -55,5 +57,15 @@ body {
     align-items: center;
 }
 .main-content {
+    background: var(--color-content-bg);
     grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: 50px 1fr;
 }
