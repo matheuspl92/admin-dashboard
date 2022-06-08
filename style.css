@@ -69,3 +69,26 @@ body {
     display: grid;
     grid-template-rows: 50px 1fr;
 }
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.announcements .card {
+    display: grid;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.trending .card {
+     display: grid;   
+}
