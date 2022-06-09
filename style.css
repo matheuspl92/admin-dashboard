@@ -139,11 +139,22 @@ button:active {
     grid-row-end: 3;
     display: grid;
     grid-template-rows: 50px 1fr;
+    padding: 0px 20px;
 }
 
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.card-container .card {
+    background: var(--color-sidebar-font);
+    
+    border-left: 10px solid var(--color-header-bg);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .announcements {
@@ -173,5 +184,12 @@ button:active {
 }
 
 .bottom .user-name {
-    font-size: 2em
+    font-size: 2em;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25em;
 }
