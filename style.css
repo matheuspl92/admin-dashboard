@@ -149,8 +149,10 @@ button:active {
 }
 
 .card-container .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background: var(--color-sidebar-font);
-    
     border-left: 10px solid var(--color-header-bg);
     border-radius: 10px;
     padding: 10px;
@@ -192,4 +194,26 @@ button:active {
     align-items: center;
     font-weight: bold;
     font-size: 1.25em;
+}
+
+.title {
+    color: var(--color-header-font);
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.content {
+    color: var(--color-content-font);
+}
+
+.icons {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+}
+
+.icons img {
+    height: 25px;
 }
