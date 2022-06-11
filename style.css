@@ -181,11 +181,32 @@ button:active {
 }
 
 .trending .card {
-     display: grid;
+    display: grid;
+    grid-auto-rows: 1fr;
     background: var(--color-sidebar-font);
     border-radius: 10px;
     padding: 30px;
     box-shadow: 5px 5px 5px gray;
+}
+
+.trending .info {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+}
+
+.trending img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+
+.trending .content {
+
 }
 
 .msg {
@@ -227,12 +248,6 @@ button:active {
 
 .icons img {
     height: 25px;
-}
-
-.info img {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
 }
 
 hr {
