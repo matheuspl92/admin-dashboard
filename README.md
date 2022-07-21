@@ -1,5 +1,7 @@
 # admin-dashboard
 
+**Preview: https://matheuspl92.github.io/admin-dashboard/**
+
 A basic dashboard layout built using CSS Grid and Flexbox.
 
 Skills demonstrated:
